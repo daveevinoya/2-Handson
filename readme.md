@@ -68,9 +68,8 @@ Guiding Question:
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Card-gallery
+- Animated designs
 
 ### Technology
 <!-- TODO: List of Technology Used -->
