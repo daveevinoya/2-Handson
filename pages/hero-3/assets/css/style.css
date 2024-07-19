@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100dvh;
+    overflow-x: hidden;
+}
+
+.hero {
+    height: 100dvh;
+    width: 100dvw;
+    position: relative;
+    .background {
+        .toxic {
+            width: 100%;
+            position: absolute;
+            z-index: -2;
+            height: 100dvh;
+
+        }
+
+        .partial-color {
+            background-image: linear-gradient(to right top, #1000001c, #140101);
+            height: 100dvh;
+            width: 70dvw;
+            position: absolute;
+            z-index: -1;
+            right: 0;
+        }
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+
+        .left {
+            height: 100dvh;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            width: 50dvw;
+
+            img {
+                width: 35rem;
+                aspect-ratio: 1/1;
+                object-fit: cover;
+                box-shadow: 40px 45px 12px 2px rgba(252, 255, 251, 0.958);
+                -webkit-box-shadow: 40px 45px 12px 2px rgb(7, 5, 56);
+                -moz-box-shadow: 40px 45px 12px 2px rgb(36, 35, 35);
+                border-radius: 1%;
+            }
+        }
+
+        .right {
+            width: 50dvw;
+
+            .container {
+                width: 40rem;
+                aspect-ratio: 1/1;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .designer {
+                    font-weight: 100;
+                    font-size: 2rem;
+                    letter-spacing: .5rem;
+                    color: rgba(246, 246, 246, 0.782);
+
+                }
+
+                .name {
+                    font-family: "Oswald", cursive;
+                    font-size: 3.5rem;
+                    color: rgba(210, 89, 14, 0.642);
+                    margin-top: 11.5%;
+
+                    span {
+                        font-size: 5rem;
+                    }
+                }
+
+                .message {
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    color: rgba(175, 7, 7, 0.718);
+                }
+
+                .content {
+                    font-size: 1.5rem;
+                    padding-bottom: 1.5rem;
+                    border-bottom: 2px solid black;
+                    width: fit-content;
+                    text-align: justify;
+                    text-justify: inter-word;
+                    color: rgba(228, 227, 227, 0.475);
+                }
+
+                img {
+                    height: 7rem;
+                    width: fit-content;
+                    opacity: 0.3;
+                    border-radius: 50%;
+                    
+                }
+
+                .account {
+                    text-decoration: none;
+                    color: rgba(255, 255, 255, 0.589);
+                    font-size: 1rem;
+                }
+            }
+        }
+
+    }
+}
