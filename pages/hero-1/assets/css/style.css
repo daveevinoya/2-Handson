@@ -13,12 +13,11 @@ body {
 .hero-background {
     width: 100dvw;
     height: 100dvh;
-    height: 100dvh;
     background: url('https://www.buff.game/wp-content/uploads/2021/05/garen.jpg');
     object-fit: cover;
     position: relative;
 
-    & .garen {
+    & .mascot {
         position: absolute;
         right: 2rem;
         bottom: 0;
@@ -59,11 +58,11 @@ body {
                 padding: 2rem;
                 width: 35dvw;
                 background: rgba(75, 3, 3, 0.1);
-                box-shadow: 0 4px 30px rgb(248, 255, 40);
+                box-shadow: 0 4px 30px rgba(36, 5, 122, 0.301);
                 backdrop-filter: blur(60px);
                 -webkit-backdrop-filter: blur(10px);
                 font-size: 0.1rem;
-                border: 1px solid rgb(255, 213, 0);
+                border: 1px solid rgba(10, 8, 141, 0.212);
                 color: rgb(0, 0, 0);
                 border-radius: 15px;
                 & .card-img {
@@ -102,7 +101,7 @@ body {
             justify-content: space-between;
             width: 35dvw;
             padding: 2rem;
-            color: rgb(21, 0, 255);
+            color: rgb(108, 204, 17);
 
             p {
                 filter: invert(1);
@@ -149,7 +148,7 @@ body {
     }
 
     .hero-background {
-        & .garen {
+        & .mascot {
             height: 10rem;
         }
     }
