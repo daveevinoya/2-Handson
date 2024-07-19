@@ -13,7 +13,6 @@ body {
 .hero-background {
     width: 100dvw;
     height: 100dvh;
-    background: url('https://www.buff.game/wp-content/uploads/2021/05/garen.jpg');
     object-fit: cover;
     position: relative;
 
