@@ -70,9 +70,9 @@ Guiding Question:
 <!-- The following are just sample -->
 - Card-gallery
 - Animated designs
--Hover
--Theme
--Multi page
+- Hover
+- Theme
+- Multi page
 
 ### Technology
 <!-- TODO: List of Technology Used -->
