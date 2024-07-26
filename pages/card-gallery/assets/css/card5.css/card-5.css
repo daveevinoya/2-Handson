@@ -28,10 +28,10 @@ body {
   -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4));
 }
 
-.tig_imgsrc {
+.tigreal_imgsrc {
 	transform: translateX(-35%);
 }
-.tig_imgsrc img{
+.tigreal_imgsrc img{
   -webkit-box-reflect: below 20px linear-gradient(rgb(255, 255, 255),rgba(255,255,255,0.4));
 }
 
@@ -114,10 +114,10 @@ h5 {
 	.card__skill img {
 		max-width: 35px;
 	}
-	.tig_img {
+	.tigreal_img {
 		transform: translate(0px, -30px);
 	}
-	.tig_img img {
+	.tigreal_img img {
 		width: 150px;
 	}
 }
